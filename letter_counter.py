@@ -1,6 +1,9 @@
+def Inputword():
+    return input("Enter a word : ").lower()
+
 def main():
     print("This prog counts number of vowels in inpute phrase")
-    inputeword = input("Enter a word : ").lower()
+    inputeword = Inputword()
 
     totalwords = 0
     for character in inputeword:
