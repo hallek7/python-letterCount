@@ -9,7 +9,7 @@ def main():
     for character in inputeword:
         if character in lettetoCount:
             totalwordtocount = totalwordtocount + 1
-
+ 
     print("Total vowels in your phrase {}".format(totalwordtocount)); 
 
 if __name__ == "__main__":
