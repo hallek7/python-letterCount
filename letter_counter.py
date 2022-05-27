@@ -4,6 +4,7 @@ def main():
     
     inputeword = input("Enter a word : ").lower()
 
+
     totalwordtocount = 0
     for character in inputeword:
         if character in lettetoCount:
